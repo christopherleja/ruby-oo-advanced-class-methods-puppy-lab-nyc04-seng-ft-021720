@@ -25,7 +25,7 @@ class Dog
   def self.print_all
     dog_array = self.all
     dog_array.map do |dog|
-    self.name
+    dog.name
     end
   puts dog_array
   end
