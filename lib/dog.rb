@@ -22,7 +22,11 @@ class Dog
   end
   
   def self.print_all
-    puts self.all
+    results = self.all
+    results.map do each |name|
+    name
+    end
+  results
   end
   
   def self.clear_all
