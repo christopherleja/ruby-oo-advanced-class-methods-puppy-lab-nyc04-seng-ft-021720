@@ -24,7 +24,7 @@ class Dog
   def self.print_all
     results = self.all
     results.map do each |name|
-    name
+    
     end
   results
   end
