@@ -6,6 +6,7 @@ class Dog
  
   def self.all
     @@all
+    self.save
   end
   
   def save
