@@ -23,8 +23,8 @@ class Dog
   
   def self.print_all
     results = self.all
-    results.map do each |name|
-    
+    results.map do each |dog|
+    dog.name
     end
   results
   end
