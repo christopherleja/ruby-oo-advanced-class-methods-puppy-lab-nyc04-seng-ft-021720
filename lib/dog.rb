@@ -21,7 +21,7 @@ class Dog
     dog_name_array = self.all.map do |dog|
     dog.name
     end
-  puts dog_name_array
+    puts dog_name_array
   end
   
   def self.clear_all
