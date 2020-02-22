@@ -23,8 +23,7 @@ class Dog
   
   
   def self.print_all
-    dog_array = self.all
-    dog_array.map do |dog|
+    dog_array = self.all.map do |dog|
     dog.name
     end
   puts dog_array
