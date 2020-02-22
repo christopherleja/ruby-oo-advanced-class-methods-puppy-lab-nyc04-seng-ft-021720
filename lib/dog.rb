@@ -13,7 +13,7 @@ class Dog
   end
   
   def initialize(name)
-    self.name = name
+    @name = name
    
   end
   
