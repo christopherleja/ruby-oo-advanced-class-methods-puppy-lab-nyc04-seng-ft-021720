@@ -3,6 +3,10 @@ class Dog
   attr_accessor :name
   
   @@all = []
+ 
+  def self.all
+    @@all
+  end
   
   def save
     @@all << self.new(name)
@@ -17,9 +21,6 @@ class Dog
     @@all << self.new(name)
   end
   
-  def self.all
-    @@all
-  end
   
   def self.print_all
     results = self.all
