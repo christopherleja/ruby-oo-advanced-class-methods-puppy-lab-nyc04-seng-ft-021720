@@ -17,11 +17,6 @@ class Dog
     save
   end
   
-  def self.save
-    @@all << self.new(name)
-  end
-  
-  
   def self.print_all
     dog_name_array = self.all.map do |dog|
     dog.name
