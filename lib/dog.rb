@@ -23,10 +23,10 @@ class Dog
   
   
   def self.print_all
-    dog_array = self.all.map do |dog|
+    dog_name_array = self.all.map do |dog|
     dog.name
     end
-  puts dog_array
+  puts dog_name_array
   end
   
   def self.clear_all
